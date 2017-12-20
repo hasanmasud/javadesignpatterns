@@ -10,5 +10,6 @@
   	<module>pattern-factory</module>
     <module>pattern-abstractfactory</module>
     <module>pattern-builder</module>
+    <module>pattern-prototype</module>
   </modules>
 </project>
