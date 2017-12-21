@@ -16,5 +16,6 @@
     <module>pattern-facade</module>
     <module>pattern-composite</module>
     <module>pattern-proxy</module>
+    <module>pattern-bridge</module>
   </modules>
 </project>
