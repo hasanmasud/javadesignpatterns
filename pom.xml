@@ -13,5 +13,8 @@
     <module>pattern-prototype</module>
     <module>pattern-adapter</module>
     <module>pattern-decorator</module>
+    <module>pattern-facade</module>
+    <module>pattern-composite</module>
+    <module>pattern-proxy</module>
   </modules>
 </project>
