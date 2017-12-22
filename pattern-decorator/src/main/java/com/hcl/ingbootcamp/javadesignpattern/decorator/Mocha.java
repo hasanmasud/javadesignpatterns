@@ -1,6 +1,6 @@
 package com.hcl.ingbootcamp.javadesignpattern.decorator;
 
-public class Mocha extends CondimentDecorator {
+public class Mocha extends CondimentAdder {
 
 	private Beverage beverage;
 
