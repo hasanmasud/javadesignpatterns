@@ -4,11 +4,11 @@ public class ProductClient {
 
 	public static void main(String... args) {
 
-		AbstractFactory abstractFactory1 = new ConcreateFactory1();
+		ProductFactory abstractFactory1 = new ProductFactory1();
 		abstractFactory1.createProductA().showPrice();
 		abstractFactory1.createProductB().showPrice();
 		
-		AbstractFactory abstractFactory2 = new ConcreateFactory2();
+		ProductFactory abstractFactory2 = new ProductFactory2();
 		abstractFactory2.createProductA().showPrice();
 		abstractFactory2.createProductB().showPrice();
 		

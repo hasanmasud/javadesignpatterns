@@ -6,17 +6,17 @@ public class SocketAdapterObjectImpl implements SocketAdapter {
 
 	@Override
 	public Volt get3Volt() {
-		return new Volt(socket.getVolts().getVolts() / 40);
+		return new Volt(socket.getStandardVolts().getVolts() / 40);
 	}
 
 	@Override
 	public Volt get4Volt() {
-		return new Volt(socket.getVolts().getVolts() / 30);
+		return new Volt(socket.getStandardVolts().getVolts() / 30);
 	}
 
 	@Override
 	public Volt get2Volt() {
-		return new Volt(socket.getVolts().getVolts() / 60);
+		return new Volt(socket.getStandardVolts().getVolts() / 60);
 	}
 
 }

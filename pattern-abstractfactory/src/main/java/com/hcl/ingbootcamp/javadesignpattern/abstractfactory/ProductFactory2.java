@@ -1,6 +1,6 @@
 package com.hcl.ingbootcamp.javadesignpattern.abstractfactory;
 
-public class ConcreateFactory2 implements AbstractFactory {
+public class ProductFactory2 implements ProductFactory {
 
 	@Override
 	public AbstractProductA createProductA() {

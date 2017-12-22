@@ -1,6 +1,6 @@
 package com.hcl.ingbootcamp.javadesignpattern.adaptor;
 
-public class Volt {
+public final class Volt {
 
 	private int volts;
 

@@ -1,6 +1,6 @@
 package com.hcl.ingbootcamp.javadesignpattern.abstractfactory;
 
-public interface AbstractFactory {
+public interface ProductFactory {
 	public AbstractProductA createProductA();
 	public AbstractProductB createProductB();
 }
