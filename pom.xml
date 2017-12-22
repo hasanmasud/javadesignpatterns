@@ -19,5 +19,6 @@
     <module>pattern-bridge</module>
     <module>pattern-strategy</module>
     <module>pattern-observer</module>
+    <module>pattern-iterator</module>
   </modules>
 </project>
