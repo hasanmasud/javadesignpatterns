@@ -20,5 +20,6 @@
     <module>pattern-strategy</module>
     <module>pattern-observer</module>
     <module>pattern-iterator</module>
+    <module>pattern-state</module>
   </modules>
 </project>
