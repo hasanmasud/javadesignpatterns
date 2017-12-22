@@ -1,9 +1,10 @@
 package com.hcl.ingbootcamp.javadesignpattern.bridge;
 
-class CircleShape extends Shape {
+class Circle extends Shape {
+
 	private double x, y, radius;
 
-	public CircleShape(final double x, final double y, final double radius, final DrawingAPI drawingAPI) {
+	public Circle(final double x, final double y, final double radius, final DrawingAPI drawingAPI) {
 		super(drawingAPI);
 		this.x = x;
 		this.y = y;
