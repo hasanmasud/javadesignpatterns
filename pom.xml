@@ -17,5 +17,6 @@
     <module>pattern-composite</module>
     <module>pattern-proxy</module>
     <module>pattern-bridge</module>
+    <module>pattern-strategy</module>
   </modules>
 </project>
