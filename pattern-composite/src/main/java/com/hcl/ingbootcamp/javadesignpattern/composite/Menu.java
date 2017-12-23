@@ -8,7 +8,7 @@ public class Menu extends MenuComponent {
 	private List<MenuComponent> menuComponents = new ArrayList<>();
 	private String name;
 
-	private Menu(String name) {
+	public Menu(String name) {
 		this.name = name;
 	}
 
@@ -34,7 +34,7 @@ public class Menu extends MenuComponent {
 
 	@Override
 	public void print() {
-		System.out.println(" " + name);
+		System.out.println("Menu : " + name);
 		System.out.println("......................................");
 		for (MenuComponent menuComponent : this.menuComponents) {
 			menuComponent.print();

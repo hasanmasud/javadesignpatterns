@@ -21,5 +21,6 @@
     <module>pattern-observer</module>
     <module>pattern-iterator</module>
     <module>pattern-state</module>
+    <module>pattern-templatemethod</module>
   </modules>
 </project>

@@ -6,6 +6,12 @@ public class MenuItem extends MenuComponent {
 	private double price;
 	private boolean isVeg;
 
+	public MenuItem(String name, double price, boolean isVeg) {
+		this.name = name;
+		this.price = price;
+		this.isVeg = isVeg;
+	}
+
 	/**
 	 * @return the name
 	 */
@@ -56,9 +62,7 @@ public class MenuItem extends MenuComponent {
 
 	@Override
 	public void print() {
-		System.out.println(" " + this.name);
-		System.out.println(" , " + ((this.isVeg) ? "V" : ""));
-		System.out.println(" , " + this.price);
+		System.out.println(" " + this.name + " , " + ((this.isVeg) ? "V" : "NV") + " , " + this.price);
 	}
 
 }
