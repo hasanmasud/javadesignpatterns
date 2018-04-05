@@ -3,35 +3,35 @@ package com.hcl.ingbootcamp.javadesignpattern.state;
 //import java.util.Random;
 
 public class HasQuarterState implements State {
-	
-	private GumballMachine gumballMachine;
 
-	public HasQuarterState(GumballMachine gumballMachine) {
-		this.gumballMachine = gumballMachine;
-	}
+    private GumballMachine gumballMachine;
 
-	public void insertQuarter() {
-		System.out.println("You can't insert another quarter");
-	}
+    public HasQuarterState(GumballMachine gumballMachine) {
+        this.gumballMachine = gumballMachine;
+    }
 
-	public void ejectQuarter() {
-		System.out.println("Quarter returned");
-		gumballMachine.setState(gumballMachine.getNoQuarterState());
-	}
+    public void insertQuarter() {
+        System.out.println("You can't insert another quarter");
+    }
 
-	public void turnCrank() {
-		System.out.println("You turned...");
-		gumballMachine.setState(gumballMachine.getSoldState());
-	}
+    public void ejectQuarter() {
+        System.out.println("Quarter returned");
+        gumballMachine.setState(gumballMachine.getNoQuarterState());
+    }
 
-	public void dispense() {
-		System.out.println("No gumball dispensed");
-	}
+    public void turnCrank() {
+        System.out.println("You turned...");
+        gumballMachine.setState(gumballMachine.getSoldState());
+    }
 
-	public void refill() {
-	}
+    public void dispense() {
+        System.out.println("No gumball dispensed");
+    }
 
-	public String toString() {
-		return "waiting for turn of crank";
-	}
+    public void refill() {
+    }
+
+    public String toString() {
+        return "waiting for turn of crank";
+    }
 }

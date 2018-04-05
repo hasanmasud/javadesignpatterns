@@ -2,9 +2,9 @@ package com.hcl.ingbootcamp.javadesignpattern.singleton;
 
 public enum MyEnumSingleton {
 
-	INSTANCE;
+    INSTANCE;
 
-	public static void doSomething() {
-		// do something
-	}
+    public static void doSomething() {
+        // do something
+    }
 }

@@ -2,20 +2,20 @@ package com.hcl.ingbootcamp.javadesignpattern.decorator;
 
 public class Mocha extends CondimentAdder {
 
-	private Beverage beverage;
+    private Beverage beverage;
 
-	public Mocha(Beverage beverage) {
-		this.beverage = beverage;
-	}
+    public Mocha(Beverage beverage) {
+        this.beverage = beverage;
+    }
 
-	@Override
-	public String getDesctiption() {
-		return this.beverage.getDescription() + " , Mocha";
-	}
+    @Override
+    public String getDesctiption() {
+        return this.beverage.getDescription() + " , Mocha";
+    }
 
-	@Override
-	public double cost() {
-		return this.beverage.cost() + .20d;
-	}
+    @Override
+    public double cost() {
+        return this.beverage.cost() + .20d;
+    }
 
 }

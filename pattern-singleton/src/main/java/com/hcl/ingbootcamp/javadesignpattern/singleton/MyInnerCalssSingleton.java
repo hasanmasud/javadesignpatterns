@@ -1,23 +1,21 @@
 package com.hcl.ingbootcamp.javadesignpattern.singleton;
 
 /**
- * 
  * @author masud
- *
  */
 public class MyInnerCalssSingleton {
 
-	private MyInnerCalssSingleton() {
-	}
+    private MyInnerCalssSingleton() {
+    }
 
-	private static class MyInner {
-		private static final MyInnerCalssSingleton INSTANCE = new MyInnerCalssSingleton();
+    private static class MyInner {
+        private static final MyInnerCalssSingleton INSTANCE = new MyInnerCalssSingleton();
 
-		private MyInner() {
-		}
-	}
+        private MyInner() {
+        }
+    }
 
-	public static MyInnerCalssSingleton getInstance() {
-		return MyInner.INSTANCE;
-	}
+    public static MyInnerCalssSingleton getInstance() {
+        return MyInner.INSTANCE;
+    }
 }

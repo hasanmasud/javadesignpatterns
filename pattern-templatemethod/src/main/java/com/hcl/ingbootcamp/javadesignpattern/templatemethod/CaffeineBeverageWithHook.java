@@ -2,28 +2,28 @@ package com.hcl.ingbootcamp.javadesignpattern.templatemethod;
 
 public abstract class CaffeineBeverageWithHook {
 
-	final void prepareRecipe() {
-		boilWater();
-		brew();
-		pourInCup();
-		if (customerWantsCondiments()) {
-			addCondiments();
-		}
-	}
+    final void prepareRecipe() {
+        boilWater();
+        brew();
+        pourInCup();
+        if (customerWantsCondiments()) {
+            addCondiments();
+        }
+    }
 
-	abstract void brew();
+    abstract void brew();
 
-	abstract void addCondiments();
+    abstract void addCondiments();
 
-	void boilWater() {
-		System.out.println("Boiling water");
-	}
+    void boilWater() {
+        System.out.println("Boiling water");
+    }
 
-	void pourInCup() {
-		System.out.println("Pouring into cup");
-	}
+    void pourInCup() {
+        System.out.println("Pouring into cup");
+    }
 
-	boolean customerWantsCondiments() {
-		return true;
-	}
+    boolean customerWantsCondiments() {
+        return true;
+    }
 }
